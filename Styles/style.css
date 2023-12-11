@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden ;
+}
+
+body{
+    background-image: url('/Img/banner.png');
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: hidden;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.local{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    min-width: 800px;
+    color: #4e4e4e;
+}
+
+.contato{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #4e4e4e;
+}
+
+.rede{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #4e4e4e;
+    margin-top: -3px;
+}
+
+.tema{
+    font-size: 15px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.numero{
+    margin-right:5px;
+    color:#4e4e4e;
+    transition: 0.5s;
+}
+
+.numero:hover{
+    color: rgb(230, 127, 10);
+}
+
+.numero-dois{
+    margin-right:5px;
+}
+
+
+.rede a{
+    text-decoration: none;
+    color: #4e4e4e;
+}
+
+.rede h3{
+    text-decoration: none;
+    color: #4e4e4e;
+    transition: 0.5s;
+}
+
+.rede h3:hover{
+    color: rgb(230, 127, 10);
+}
+
+.contato a{
+    text-decoration: none;
+    color: #4e4e4e;
+}
+
+.sem-cursos{
+    cursor: default;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Aqui começa o responsivo */
+
+@media screen and (max-width: 884px){
+
+    body{
+        background-size: cover;
+    }
+
+}
+
+
+
+@media screen and (max-width: 800px){
+    body{
+        background-size: cover;
+    }
+
+    .local h3{
+        font-size:20px;
+    }
+
+    .contato h3{
+        font-size: 20px;
+    }
+
+    .rede h3{
+        font-size:20px ;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+    .rede h3{
+        font-size:14px ;
+    }
+
+    .local h3{
+        width: 40%;
+        font-size:14px;
+        text-align: center;
+    }
+
+    .contato h3{
+        font-size: 14px;
+        
+    }
+}
+
+
+
